@@ -62,7 +62,7 @@ Then, move to `policy/3D-Diffusion-Policy` first, and run the following code to 
 bash train_ddpm.sh ${task_name} ${head_camera_type} ${expert_data_num} ${seed} ${gpu_id}
 # As example: bash train_ddpm.sh dual_bottles_pick_hard L515 100 0 0
 ```
-**Note**: One difference between our training settings and RoboTwin's default settings is that we need to align the distribution space of the action, which means that **DP and DP3's noise scheduler need to be consistent**. Including prediction type, inference time steps and so on. Here we align DP3's noise scheduler with DP's default DDPM scheduler (in principle, as long as both schedulers are consistent, not limited to DDPM) to ensure that the action spaces of the two policies are aligned during inference sampling.
+**Note**: One key difference between our training settings and RoboTwin's default configuration is that we need to align the action distribution space. This means that **the noise scheduler for both DP and DP3 needs to be consistent**, including aspects such as prediction type and inference time steps. To achieve this, we align DP3's noise scheduler with DP's default DDPM scheduler (in principle, as long as both schedulers are consistent, this is not limited to DDPM). This ensures that the action spaces of both policies remain aligned during inference sampling.
 
 ## Step 2. Compose the pre-trained policies via distribution-level composition
 

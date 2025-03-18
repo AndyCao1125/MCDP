@@ -4,7 +4,7 @@
 
 Accepted to <i style="color: black; display: inline;"><b>Generative Models for Robot Learning Workshop @ ICLR 2025</b></i>
 
-[PDF](https://github.com/AndyCao1125/MCDP) | [arXiv](https://github.com/AndyCao1125/MCDP)<br>
+[PDF](https://arxiv.org/pdf/2503.12466) | [arXiv](https://arxiv.org/abs/2503.12466)<br>
 
 Jiahang Cao, Qiang Zhang, Hanzhong Guo, Jiaxu Wang, Hao Cheng, Renjing Xu.
 
@@ -87,10 +87,17 @@ The DP_img and DP_pcd correspond to the diffusion policy based on RGB images (i.
 
 
 # 😺 Acknowledgement
-Our code is generally built upon: [RoboTwin](https://github.com/TianxingChen/RoboTwin), [3D Diffusion Poliy](https://github.com/YanjieZe/3D-Diffusion-Policy), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy). We thank all these authors for their nicely open sourced code and their great contributions to the community.
+Our code is generally built upon: [RoboTwin](https://github.com/TianxingChen/RoboTwin), [3D Diffusion Poliy](https://github.com/YanjieZe/3D-Diffusion-Policy), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy). We thank all these authors for their nicely open sourced code and their great contributions to the community. 
 
 # 👍 Citation
-TBD
+```
+@article{cao2025MCDP,
+  title={Modality-Composable Diffusion Policy via Inference-Time Distribution-level Composition},
+  author={Cao, Jiahang and Zhang, Qiang and Guo, Hanzhong and Wang, Jiaxu and Cheng, Hao and Xu, Renjing},
+  journal={arXiv preprint arXiv:2503.12466},
+  year={2025}
+}
+```
 
 # 🏷️ License
 This repository is released under the MIT license. See [LICENSE](./LICENSE) for additional details.

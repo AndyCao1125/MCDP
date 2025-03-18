@@ -14,7 +14,7 @@ Jiahang Cao, Qiang Zhang, Hanzhong Guo, Jiaxu Wang, Hao Cheng, Renjing Xu.
   <img src="main.png" alt="dp3" width="90%">
 </div>
 
-We propose a novel policy composition method: by leveraging multiple pre-trained DPs based on individual visual modalities, we can combine their distributional scores to form a more expressive Modality-Composable Diffusion Policy (MCDP), without the need for additional training.
+We introduce a novel policy composition approach, Modality-Composable Diffusion Policy (MCDP), which composes distributional scores from multiple pre-trained diffusion policies (DPs) based on single visual modalities, enabling significant performance improvement without the need for additional training.
 
 ---
 **Note**: This repository as well as the following guidelines are based on [RoboTwin](https://github.com/TianxingChen/RoboTwin), thanks for the authors' open resoure which greatly contributes to the community.

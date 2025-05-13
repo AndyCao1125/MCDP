@@ -4,7 +4,7 @@
 
 Accepted to <i style="color: black; display: inline;"><b>Generative Models for Robot Learning Workshop @ ICLR 2025</b></i>
 
-[PDF](https://arxiv.org/pdf/2503.12466) | [arXiv](https://arxiv.org/abs/2503.12466)<br>
+[PDF](https://arxiv.org/pdf/2503.12466) | [arXiv](https://arxiv.org/abs/2503.12466) | [ICLR Genbot Homepage](https://genbot-workshop.github.io/)<br>
 
 Jiahang Cao, Qiang Zhang, Hanzhong Guo, Jiaxu Wang, Hao Cheng, Renjing Xu.
 
